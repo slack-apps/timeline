@@ -1,0 +1,57 @@
+{
+  "name": "@slack-apps/timeline",
+  "version": "0.0.0",
+  "description": "Collect messages in times-*-public",
+  "license": "MIT",
+  "scripts": {
+    "clean": "rimraf coverage .esbuild",
+    "deploy": "serverless deploy",
+    "lint": "eslint --format=pretty --cache --max-warnings 0 --fix --ext .ts .",
+    "local": "serverless offline --noPrependStageInUrl",
+    "ngrok": "ngrok http 3000",
+    "prebuild": "npm run lint",
+    "test": "jest --coverage",
+    "test:watch": "jest --watch"
+  },
+  "dependencies": {
+    "@slack/bolt": "^3.11.0",
+    "@slack/web-api": "^6.7.1",
+    "runtypes": "^6.5.1",
+    "tslib": "2.3.1"
+  },
+  "devDependencies": {
+    "@serverless/typescript": "^3.8.0",
+    "@types/jest": "27.4.1",
+    "@types/node": "17.0.23",
+    "@typescript-eslint/eslint-plugin": "5.18.0",
+    "@typescript-eslint/parser": "5.18.0",
+    "esbuild": "^0.14.31",
+    "eslint": "8.12.0",
+    "eslint-config-prettier": "8.5.0",
+    "eslint-formatter-pretty": "4.1.0",
+    "eslint-plugin-jest": "26.1.3",
+    "jest": "27.5.1",
+    "prettier": "2.6.2",
+    "rimraf": "3.0.2",
+    "serverless": "3.11.0",
+    "serverless-esbuild": "^1.26.1",
+    "serverless-offline": "^8.5.0",
+    "ts-jest": "27.1.4",
+    "ts-node": "^10.7.0",
+    "tsconfig-paths": "^3.14.1",
+    "typescript": "4.6.3"
+  },
+  "engines": {
+    "node": "14.19.1"
+  },
+  "suggest": {
+    "@commitlint/{cli,config-conventional}": "Checks if your commit messages meet the conventional commit format",
+    "concurrently": "Run multiple commands concurrently",
+    "fast-json-stringify": "faster than JSON.stringify()",
+    "iterare": "Applying multiple transformations to a collection in a single iteration",
+    "pino": "Very low overhead Node.js logger"
+  },
+  "volta": {
+    "node": "14.19.1"
+  }
+}
