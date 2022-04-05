@@ -1,0 +1,24 @@
+# package directories
+node_modules
+jspm_packages
+
+# Serverless directories
+.serverless
+
+# esbuild directories
+.esbuild
+
+# Coverage
+coverage
+
+# dotenv environment variables file
+.env
+
+# JetBrains IDE
+.idea
+
+# Optional eslint cache
+.eslintcache
+
+# Misc
+.DS_Store
