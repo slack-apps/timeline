@@ -22,7 +22,7 @@
   "devDependencies": {
     "@serverless/typescript": "^3.8.0",
     "@types/jest": "27.5.2",
-    "@types/node": "17.0.23",
+    "@types/node": "18.18.6",
     "@typescript-eslint/eslint-plugin": "5.21.0",
     "@typescript-eslint/parser": "5.21.0",
     "esbuild": "0.14.38",
@@ -42,7 +42,7 @@
     "typescript": "4.6.4"
   },
   "engines": {
-    "node": "14.19.1"
+    "node": "18.18.2"
   },
   "suggest": {
     "@commitlint/{cli,config-conventional}": "Checks if your commit messages meet the conventional commit format",
@@ -52,6 +52,6 @@
     "pino": "Very low overhead Node.js logger"
   },
   "volta": {
-    "node": "14.19.1"
+    "node": "18.18.2"
   }
 }
